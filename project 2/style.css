@@ -28,7 +28,29 @@ line-height: 1.7;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 100%;
+}
+
+.shaka1 {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 30%;
+}
+
+.shaka2 {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  width: 30%;
+}
+
+.wordmark-table {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 0px;
 }
 
 .collapsible {
@@ -78,7 +100,7 @@ line-height: 1.7;
   transition: max-height 0.2s ease-out;
   background-color: #E1F3FF;
   position: absolute;
-  top: 558px;
+  top: 570px;
   left: 40px;
   right: 40px;
 }
@@ -101,9 +123,11 @@ line-height: 1.7;
   table-layout: auto;
   margin-left: 300px;
   margin-right: 300px;
+
 }
 
 th {
+  margin-bottom: 0;
   padding: 20px;
 }
 
