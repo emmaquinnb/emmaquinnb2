@@ -1,0 +1,116 @@
+h1 {
+  font-family: century-gothic, sans-serif;
+  color: #E1F3FF;
+  font-style: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-family: century-gothic, sans-serif;
+  color: black;
+  font-style: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+p {
+font-family: century-gothic, sans-serif;
+font-style: normal;
+font-weight: 400;
+color: black;
+font-size: 15px;
+text-align: left;
+line-height: 1.7;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.collapsible {
+  background-color: #A72E5B;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  height: 200px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible2 {
+  background-color: #F18526;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  height: 200px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible3 {
+  background-color: #9ACA42;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  height: 200px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #E1F3FF;
+  position: absolute;
+  top: 558px;
+  left: 40px;
+  right: 40px;
+}
+
+.grid {
+  background-color: #E1F3FF;
+}
+
+
+.grid section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  width: 60%;
+  margin: auto;
+}
+
+.table {
+  background-color: #E1F3FF;
+  table-layout: auto;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+th {
+  padding: 20px;
+}
+
+.feature {
+  width: 400px;
+}
+
+img {
+  width: 300px;
+}
