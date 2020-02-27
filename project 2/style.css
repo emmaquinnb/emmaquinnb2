@@ -68,41 +68,16 @@ line-height: 1.7;
 
 .collapsible2 {
   background-color: #F18526;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  height: 150px;
-  border: none;
-  text-align: center;
-  outline: none;
-  font-size: 15px;
 }
 
 .collapsible3 {
   background-color: #9ACA42;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  height: 150px;
-  border: none;
-  text-align: center;
-  outline: none;
-  font-size: 15px;
+
 }
 
 .collapsible4 {
   background-color: #EDC80F;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  height: 150px;
-  border: none;
-  text-align: center;
-  outline: none;
-  font-size: 15px;
+
 }
 
 .content {
@@ -112,9 +87,9 @@ line-height: 1.7;
   transition: max-height 0.2s ease-out;
   background-color: #E1F3FF;
   position: absolute;
-  top: 520px;
-  left: 40px;
-  right: 40px;
+  top: 140px;
+  left: -18px;
+  right: -18px;
 }
 
 .grid {
@@ -130,11 +105,15 @@ line-height: 1.7;
   margin: auto;
 }
 
+
+.menu-stuff {
+  position: relative;
+}
 .table {
   background-color: #E1F3FF;
   table-layout: auto;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin: auto;
+  max-width: 800px;
 
 }
 

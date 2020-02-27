@@ -19,10 +19,10 @@
     </table>
       <br></br>
       <br></br>
-    <section>
+    <section class="menu-stuff">
 
   <article>
-      <button class="collapsible"><h1>About Us</h1></button>
+      <button class="collapsible"><h1>About Us</h1>
       <div class="content">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 40"><defs><style>.aboutus-block{fill:#a72e5b;}</style></defs><title>aboutus-block</title><g id="aboutus-block" data-name="aboutus-block"><g id="wordmark"><rect class="aboutus-block" width="1366" height="40"/></g></g></svg>
 
@@ -34,10 +34,11 @@
         </tr>
       </table>
     </div>
+    </button>
   </article>
 
   <article>
-    <button class="collapsible2"><h1>Menu</h1></button>
+    <button class="collapsible collapsible2"><h1>Menu</h1>
     <div class="content">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 40"><defs><style>.menu-block{fill:#f18526;}</style></defs><title>menu-block</title><g id="menu-block" data-name="menu-block"><g id="wordmark"><rect class="menu-block" width="1366" height="40"/></g></g></svg>
       <table class="table">
@@ -87,10 +88,11 @@
         </tr>
       </table>
       </div>
+      </button>
   </article>
 
   <article>
-    <button class="collapsible3"><h1>Locations</h1></button>
+    <button class="collapsible collapsible3"><h1>Locations</h1>
     <div class="content">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 40"><defs><style>.locations-block{fill:#9aca42;}</style></defs><title>locations-block</title><g id="locations-block" data-name="locations-block"><g id="wordmark"><rect class="locations-block" width="1366" height="40"/></g></g></svg>
       <table class="table">
@@ -127,11 +129,12 @@
         </tr>
       </table>
     </div>
+    </button>
   </article>
 
 
   <article>
-    <button class="collapsible4"><h1>Contact Us</h1></button>
+    <button class="collapsible collapsible4"><h1>Contact Us</h1>
   <div class="content">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 40"><defs><style>.contactus-block{fill:#EDC80F;}</style></defs><title>contactus-block</title><g id="contactus-block" data-name="contactus-block"><g id="wordmark"><rect class="contactus-block" width="1366" height="40"/></g></g></svg>
 
@@ -139,68 +142,22 @@
     <p><strong>Facebook:</strong> Wailua Shave Ice, Wailua Shave Ice PDX, Wailua Shave Ice San Diego</p>
     <p><strong>Instagram:</strong> @wailuashaveice, @wailuashaveicepdx, @wailuashaveicesandiego</p>
   </div>
+  </button>
   </article>
 
     </section>
-
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
     <script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-coll[i].addEventListener("click", function() {
-  this.classList.toggle("active");
-  var content = this.nextElementSibling;
-  if (content.style.maxHeight){
-    content.style.maxHeight = null;
-  } else {
-    content.style.maxHeight = content.scrollHeight + "px";
-  }
+$(function() {
+// Your Code from here on down. Don't delete that line above!
+  $('.collapsible').click(function() {
+    $('.collapsible').not(this).find('.content').css('max-height', 0)
+    $(this).find('.content').css('max-height', '100vh')
+  });
 });
-}
-var coll = document.getElementsByClassName("collapsible2");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-coll[i].addEventListener("click", function() {
-  this.classList.toggle("active");
-  var content = this.nextElementSibling;
-  if (content.style.maxHeight){
-    content.style.maxHeight = null;
-  } else {
-    content.style.maxHeight = content.scrollHeight + "px";
-  }
-});
-}
-var coll = document.getElementsByClassName("collapsible3");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-coll[i].addEventListener("click", function() {
-  this.classList.toggle("active");
-  var content = this.nextElementSibling;
-  if (content.style.maxHeight){
-    content.style.maxHeight = null;
-  } else {
-    content.style.maxHeight = content.scrollHeight + "px";
-  }
-});
-}
-var coll = document.getElementsByClassName("collapsible4");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-coll[i].addEventListener("click", function() {
-  this.classList.toggle("active");
-  not(this.classList).removeClass('active');
-  var content = this.nextElementSibling;
-  if (content.style.maxHeight){
-    content.style.maxHeight = null;
-  } else {
-    content.style.maxHeight = content.scrollHeight + "px";
-  }
-});
-}
 </script>
   </body>
 </html>
