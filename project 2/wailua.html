@@ -30,7 +30,7 @@
       <div class="content">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 40"><defs><style>.aboutus-block{fill:#a72e5b;}</style></defs><title>aboutus-block</title><g id="aboutus-block" data-name="aboutus-block"><g id="wordmark"><rect class="aboutus-block" width="1366" height="40"/></g></g></svg>
 
-      <table class="table">
+      <table class="table abouttable">
         <tr>
           <th><img src="images/aboutus.jpg" alt="aboutus" class="feature"></th>
           <th><p>Owners, Josh Tamaoka, and, Brandon Baptiste, were born and raised in Wailua, Kauai in Hawaii. Brandon left to attend the Culinary Institute of America in New York. He worked for Thomas Keller at Per Se in New York and then French Laundry in California. When he returned home, the two friends teamed up to recreate one of their childhood favorite treats. They opened Wailua Shave Ice using culinary techniques and skills learned while working at some of the top restaurants across the nation, and having almost 30 years of shave ice eating experience. They started serving the shave ice from a little red food truck, then upgraded to a bigger place and opened up two more locations in Portland, Oregon and San Diego, California. Wailua Shave Ice tops a big mound of fluffy ice with organic cane sugar syrup and local fruit. Their Hawaiian style shave ice is made with fresh local fruit, no artificial flavors, no preservatives, no dyes, no high fructose syrup.</p>
@@ -45,7 +45,7 @@
     <button class="collapsible collapsible2"><h1>Menu</h1>
     <div class="content">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 40"><defs><style>.menu-block{fill:#f18526;}</style></defs><title>menu-block</title><g id="menu-block" data-name="menu-block"><g id="wordmark"><rect class="menu-block" width="1366" height="40"/></g></g></svg>
-      <table class="table">
+      <table class="table menutable">
         <tr>
           <th><img src="images/lavaflow.jpg" alt="lavaflow"></th>
           <th><p><strong>Lava Flow</strong></p>
@@ -99,14 +99,13 @@
     <button class="collapsible collapsible3"><h1>Locations</h1>
     <div class="content">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 40"><defs><style>.locations-block{fill:#9aca42;}</style></defs><title>locations-block</title><g id="locations-block" data-name="locations-block"><g id="wordmark"><rect class="locations-block" width="1366" height="40"/></g></g></svg>
-      <table class="table">
+      <table class="table locationtable">
         <tr>
-          <th><img src="images/kauai.png" alt="kauai"></th>
-          <th><img src="images/pdx.png" alt="pdx"></th>
-          <th><img src="images/sandiego.png" alt="sandiego"></th>
-        </tr>
-        <tr>
-          <th><p><strong>Wailua Shave Ice Kauai</strong></p>
+          <th class="c1-img"><img src="images/kauai.png" alt="kauai"></th>
+          <th class="c2-img"><img src="images/pdx.png" alt="pdx"></th>
+          <th class="c3-img"><img src="images/sandiego.png" alt="sandiego"></th>
+        
+          <th class="c1-loc"><p><strong>Wailua Shave Ice Kauai</strong></p>
           <p>@wailuashaveice</p>
           <p>(808)634-7183</p>
           <p>wailua.shaveice@gmail.com</p>
@@ -116,7 +115,7 @@
           <br><br>
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d924.3377722107141!2d-159.318624!3d22.074405!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c06e0f6b0cfff17%3A0x42c5aad55bb3fd16!2s4-1306%20Kuhio%20Hwy%2C%20Kapa%CA%BBa%2C%20HI%2096746!5e0!3m2!1sen!2sus!4v1583261150125!5m2!1sen!2sus" width="300" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
           </th>
-          <th><p><strong>Wailua Shave Ice Portland</strong></p>
+          <th class="c2-loc"><p><strong>Wailua Shave Ice Portland</strong></p>
           <p>@wailuashaveicepdx</p>
           <p>(808)652-9394</p>
           <p>wailua.shaveice@gmail.com</p>
@@ -126,7 +125,7 @@
           <br><br>
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d698.8433458881859!2d-122.6817024!3d45.5226913!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950a03ba960a65%3A0xf16ab94f15cf10db!2s1022%20W%20Burnside%20St%2C%20Portland%2C%20OR%2097209!5e0!3m2!1sen!2sus!4v1583261252645!5m2!1sen!2sus" width="300" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
           </th>
-          <th><p><strong>Wailua Shave Ice San Diego</strong></p>
+          <th class="c3-loc"><p><strong>Wailua Shave Ice San Diego</strong></p>
           <p>@wailuashaveicesandiego</p>
           <p>(808)635-7894</p>
           <p>wailua.shaveice@gmail.com</p>
@@ -168,7 +167,7 @@ $(function() {
 // Your Code from here on down. Don't delete that line above!
   $('.collapsible').click(function() {
     $('.collapsible').not(this).find('.content').css('max-height', 0)
-    $(this).find('.content').css('max-height', '100vh')
+    $(this).find('.content').css('max-height', '1800vh')
   });
 });
 </script>
