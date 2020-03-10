@@ -149,31 +149,38 @@ img {
     .table {
       table-layout: repeat(1, 1fr);
     }
+
     .locationtable tr {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 320px 800px;
     }
+
     .c1-img {
       grid-column: 1 / 2;
       grid-row: 1 / 2;
     }
+
     .c1-loc {
       grid-column: 1 / 2;
       grid-row: 2 / 3;
     }
+
     .c2-img {
       grid-column: 1 / 2;
       grid-row: 3 / 4;
     }
+
     .c2-loc {
       grid-column: 1 / 2;
       grid-row: 4 / 5;
     }
+
     .c3-img {
       grid-column: 1 / 2;
       grid-row: 5 / 6;
     }
+    
     .c3-loc {
       grid-column: 1 / 2;
       grid-row: 6 / 7;
