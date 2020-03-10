@@ -182,6 +182,11 @@ img {
       grid-template-rows: 320px 800px;
     }
 
+    .menutable tr, .abouttable tr  {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
     .c1-img {
       grid-column: 1 / 2;
       grid-row: 1 / 2;
