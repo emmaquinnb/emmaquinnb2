@@ -133,6 +133,11 @@ img {
   width: 300px;
 }
 
+.footer {
+  padding: 4%;
+  background: none;
+}
+
 .locationtable tr {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -144,6 +149,27 @@ img {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
     width: 100%;
+  }
+
+  .wordmark-table {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .aboutus-block {
+    display: none;
+  }
+
+  .menu-block {
+    display: none;
+  }
+
+  .locations-block {
+    display: none;
+  }
+
+  .contactus-block {
+    display: none;
   }
 
     .table {
@@ -180,7 +206,7 @@ img {
       grid-column: 1 / 2;
       grid-row: 5 / 6;
     }
-    
+
     .c3-loc {
       grid-column: 1 / 2;
       grid-row: 6 / 7;
