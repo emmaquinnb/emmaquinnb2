@@ -23,7 +23,8 @@ font-size: 15px;
 text-align: left;
 line-height: 1.7;
 max-width: 800px;
-margin: auto;
+margin-left: 10%;
+margin-right: 10%;
 }
 
 .center {
@@ -92,6 +93,7 @@ margin: auto;
   top: 140px;
   left: -80px;
   right: -80px;
+  margin: auto;
 }
 
 .grid {
@@ -123,6 +125,8 @@ margin: auto;
 th {
   margin-bottom: 0;
   padding: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .feature {
@@ -150,6 +154,7 @@ img {
     grid-gap: 20px;
     width: 100%;
   }
+
 
   .wordmark-table {
     margin-left: 0px;
